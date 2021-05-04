@@ -1,4 +1,4 @@
-package com.pokedex
+package com.pokedex.dataclass
 
 data class Pokemon(
     val pokemon:String,

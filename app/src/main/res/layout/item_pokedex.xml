@@ -64,36 +64,6 @@
         app:layout_constraintTop_toTopOf="@+id/ivCardOne" />
 
     <TextView
-        android:id="@+id/tvTypeOne"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="sans-serif"
-        android:foregroundTint="#FFFFFF"
-        android:text="Poison"
-        android:textColor="@color/white"
-        android:textSize="14sp"
-        app:layout_constraintBottom_toBottomOf="@+id/ivTypeOne"
-        app:layout_constraintEnd_toEndOf="@+id/ivTypeOne"
-        app:layout_constraintStart_toStartOf="@+id/ivTypeOne"
-        app:layout_constraintTop_toTopOf="@+id/ivTypeOne" />
-
-    <TextView
-        android:id="@+id/tvTypeTwo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="sans-serif"
-        android:foregroundTint="#FFFFFF"
-        android:text="Poison"
-        android:textColor="@color/white"
-        android:textSize="14sp"
-        app:layout_constraintBottom_toBottomOf="@+id/ivTypeTwo"
-        app:layout_constraintEnd_toEndOf="@+id/ivTypeTwo"
-        app:layout_constraintHorizontal_bias="0.52"
-        app:layout_constraintStart_toStartOf="@+id/ivTypeTwo"
-        app:layout_constraintTop_toBottomOf="@+id/ivTypeOne"
-        app:layout_constraintVertical_bias="1.0" />
-
-    <TextView
         android:id="@+id/tvNumberPokemon"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -104,28 +74,6 @@
         app:layout_constraintHorizontal_bias="0.52"
         app:layout_constraintStart_toEndOf="@+id/tvNamePokemon"
         app:layout_constraintTop_toTopOf="@+id/ivCardOne" />
-
-    <ImageView
-        android:id="@+id/ivTypeOne"
-        android:layout_width="58dp"
-        android:layout_height="17dp"
-        android:layout_marginStart="36dp"
-        app:layout_constraintBottom_toBottomOf="@+id/ivCardOne"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvNamePokemon"
-        app:layout_constraintVertical_bias="0.060000002"
-        app:srcCompat="@drawable/habilitie" />
-
-    <ImageView
-        android:id="@+id/ivTypeTwo"
-        android:layout_width="58dp"
-        android:layout_height="17dp"
-        android:layout_marginStart="36dp"
-        app:layout_constraintBottom_toBottomOf="@+id/ivCardOne"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvNamePokemon"
-        app:layout_constraintVertical_bias="0.571"
-        app:srcCompat="@drawable/habilitie" />
 
     <ImageView
         android:id="@+id/ivPokemon"
@@ -147,7 +95,6 @@
         android:text="#002"
         android:textSize="12sp"
         app:layout_constraintEnd_toStartOf="@+id/tvNamePokemon2"
-        app:layout_constraintHorizontal_bias="0.422"
         app:layout_constraintStart_toEndOf="@+id/ivCardOne"
         app:layout_constraintTop_toTopOf="@+id/ivCardTwo" />
 
@@ -175,29 +122,6 @@
         app:layout_constraintTop_toTopOf="@+id/ivCardTwo"
         app:layout_constraintVertical_bias="0.588"
         app:srcCompat="@drawable/bulbasaur" />
-
-    <ImageView
-        android:id="@+id/ivTypeOne2"
-        android:layout_width="50dp"
-        android:layout_height="17dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="28dp"
-        app:layout_constraintBottom_toBottomOf="@+id/ivCardTwo"
-        app:layout_constraintEnd_toEndOf="@+id/ivCardTwo"
-        app:layout_constraintTop_toBottomOf="@+id/tvNamePokemon2"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/habilitie" />
-
-    <ImageView
-        android:id="@+id/ivTypeTwo2"
-        android:layout_width="50dp"
-        android:layout_height="17dp"
-        android:layout_marginEnd="28dp"
-        app:layout_constraintBottom_toBottomOf="@+id/ivCardTwo"
-        app:layout_constraintEnd_toEndOf="@+id/ivCardTwo"
-        app:layout_constraintTop_toBottomOf="@+id/tvNamePokemon2"
-        app:layout_constraintVertical_bias="0.51"
-        app:srcCompat="@drawable/habilitie" />
 
     <ImageView
         android:id="@+id/ivPokemon3"
@@ -237,28 +161,6 @@
         app:layout_constraintTop_toTopOf="@+id/ivCardThree" />
 
     <ImageView
-        android:id="@+id/ivTypeOne3"
-        android:layout_width="50dp"
-        android:layout_height="17dp"
-        android:layout_marginStart="28dp"
-        app:layout_constraintBottom_toBottomOf="@+id/ivCardThree"
-        app:layout_constraintStart_toStartOf="@+id/ivCardThree"
-        app:layout_constraintTop_toBottomOf="@+id/tvNamePokemon3"
-        app:layout_constraintVertical_bias="0.060000002"
-        app:srcCompat="@drawable/habilitie" />
-
-    <ImageView
-        android:id="@+id/ivTypeTwo3"
-        android:layout_width="50dp"
-        android:layout_height="17dp"
-        android:layout_marginStart="28dp"
-        app:layout_constraintBottom_toBottomOf="@+id/ivCardThree"
-        app:layout_constraintStart_toStartOf="@+id/ivCardThree"
-        app:layout_constraintTop_toBottomOf="@+id/tvNamePokemon3"
-        app:layout_constraintVertical_bias="0.528"
-        app:srcCompat="@drawable/habilitie" />
-
-    <ImageView
         android:id="@+id/ivPokemon4"
         android:layout_width="54dp"
         android:layout_height="66dp"
@@ -269,28 +171,6 @@
         app:layout_constraintTop_toTopOf="@+id/ivCardFourd"
         app:layout_constraintVertical_bias="0.58"
         app:srcCompat="@drawable/bulbasaur" />
-
-    <ImageView
-        android:id="@+id/ivTypeTwo4"
-        android:layout_width="50dp"
-        android:layout_height="17dp"
-        android:layout_marginEnd="28dp"
-        app:layout_constraintBottom_toBottomOf="@+id/ivCardFourd"
-        app:layout_constraintEnd_toEndOf="@+id/ivCardFourd"
-        app:layout_constraintTop_toBottomOf="@+id/tvNamePokemon4"
-        app:layout_constraintVertical_bias="0.56"
-        app:srcCompat="@drawable/habilitie" />
-
-    <ImageView
-        android:id="@+id/ivTypeOne4"
-        android:layout_width="50dp"
-        android:layout_height="17dp"
-        android:layout_marginEnd="28dp"
-        app:layout_constraintBottom_toBottomOf="@+id/ivCardFourd"
-        app:layout_constraintEnd_toEndOf="@+id/ivCardFourd"
-        app:layout_constraintTop_toBottomOf="@+id/tvNamePokemon4"
-        app:layout_constraintVertical_bias="0.22"
-        app:srcCompat="@drawable/habilitie" />
 
     <TextView
         android:id="@+id/tvNamePokemon4"
@@ -316,5 +196,47 @@
         app:layout_constraintHorizontal_bias="0.41"
         app:layout_constraintStart_toStartOf="@+id/ivCardFourd"
         app:layout_constraintTop_toTopOf="@+id/ivCardFourd" />
+
+    <ImageView
+        android:id="@+id/ivTypeOne1"
+        android:layout_width="30dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toStartOf="@+id/ivTypeTwo1"
+        app:layout_constraintHorizontal_bias="0.74"
+        app:layout_constraintStart_toStartOf="@+id/ivCardOne"
+        app:layout_constraintTop_toBottomOf="@+id/tvNamePokemon"
+        app:srcCompat="@drawable/grass" />
+
+    <ImageView
+        android:id="@+id/ivTypeTwo1"
+        android:layout_width="30dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="100dp"
+        app:layout_constraintEnd_toEndOf="@+id/ivCardOne"
+        app:layout_constraintTop_toBottomOf="@+id/tvNamePokemon"
+        app:srcCompat="@drawable/poison" />
+
+    <ImageView
+        android:id="@+id/ivTypeOne2"
+        android:layout_width="30dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toStartOf="@+id/imageView4"
+        app:layout_constraintHorizontal_bias="0.924"
+        app:layout_constraintStart_toEndOf="@+id/ivCardOne"
+        app:layout_constraintTop_toBottomOf="@+id/tvNamePokemon2"
+        app:srcCompat="@drawable/grass" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="30dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="32dp"
+        app:layout_constraintEnd_toEndOf="@+id/ivCardTwo"
+        app:layout_constraintTop_toBottomOf="@+id/tvNamePokemon2"
+        app:srcCompat="@drawable/poison" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
