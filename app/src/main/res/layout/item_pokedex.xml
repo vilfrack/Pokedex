@@ -129,7 +129,7 @@
         android:layout_height="66dp"
         app:layout_constraintBottom_toBottomOf="@+id/ivCardThree"
         app:layout_constraintEnd_toEndOf="@+id/ivCardThree"
-        app:layout_constraintHorizontal_bias="0.653"
+        app:layout_constraintHorizontal_bias="0.51"
         app:layout_constraintStart_toEndOf="@+id/tvNamePokemon3"
         app:layout_constraintTop_toTopOf="@+id/ivCardThree"
         app:layout_constraintVertical_bias="0.529"
@@ -156,7 +156,7 @@
         android:text="#002"
         android:textSize="12sp"
         app:layout_constraintEnd_toEndOf="@+id/ivCardThree"
-        app:layout_constraintHorizontal_bias="0.575"
+        app:layout_constraintHorizontal_bias="0.52"
         app:layout_constraintStart_toEndOf="@+id/tvNamePokemon3"
         app:layout_constraintTop_toTopOf="@+id/ivCardThree" />
 
@@ -166,7 +166,7 @@
         android:layout_height="66dp"
         app:layout_constraintBottom_toBottomOf="@+id/ivCardFourd"
         app:layout_constraintEnd_toEndOf="@+id/ivCardFourd"
-        app:layout_constraintHorizontal_bias="0.169"
+        app:layout_constraintHorizontal_bias="0.25"
         app:layout_constraintStart_toStartOf="@+id/ivCardFourd"
         app:layout_constraintTop_toTopOf="@+id/ivCardFourd"
         app:layout_constraintVertical_bias="0.58"
@@ -177,7 +177,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:layout_marginEnd="32dp"
+        android:layout_marginEnd="44dp"
         android:text="Bulbasaur"
         android:textColor="@color/white"
         android:textSize="15sp"
@@ -193,7 +193,7 @@
         android:text="#002"
         android:textSize="12sp"
         app:layout_constraintEnd_toStartOf="@+id/tvNamePokemon4"
-        app:layout_constraintHorizontal_bias="0.41"
+        app:layout_constraintHorizontal_bias="0.52"
         app:layout_constraintStart_toStartOf="@+id/ivCardFourd"
         app:layout_constraintTop_toTopOf="@+id/ivCardFourd" />
 
@@ -223,14 +223,14 @@
         android:layout_width="30dp"
         android:layout_height="26dp"
         android:layout_marginTop="8dp"
-        app:layout_constraintEnd_toStartOf="@+id/imageView4"
+        app:layout_constraintEnd_toStartOf="@+id/ivTypeTwo2"
         app:layout_constraintHorizontal_bias="0.924"
         app:layout_constraintStart_toEndOf="@+id/ivCardOne"
         app:layout_constraintTop_toBottomOf="@+id/tvNamePokemon2"
         app:srcCompat="@drawable/grass" />
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/ivTypeTwo2"
         android:layout_width="30dp"
         android:layout_height="26dp"
         android:layout_marginTop="8dp"
@@ -238,5 +238,45 @@
         app:layout_constraintEnd_toEndOf="@+id/ivCardTwo"
         app:layout_constraintTop_toBottomOf="@+id/tvNamePokemon2"
         app:srcCompat="@drawable/poison" />
+
+    <ImageView
+        android:id="@+id/ivTypeOne3"
+        android:layout_width="30dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="@+id/ivCardThree"
+        app:layout_constraintTop_toBottomOf="@+id/tvNamePokemon3"
+        app:srcCompat="@drawable/bug" />
+
+    <ImageView
+        android:id="@+id/ivTypeTwo3"
+        android:layout_width="30dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="100dp"
+        app:layout_constraintEnd_toEndOf="@+id/ivCardThree"
+        app:layout_constraintTop_toBottomOf="@+id/tvNamePokemon3"
+        app:srcCompat="@drawable/bug" />
+
+    <ImageView
+        android:id="@+id/ivTypeOne4"
+        android:layout_width="30dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="@+id/ivCardFourd"
+        app:layout_constraintTop_toBottomOf="@+id/tvNamePokemon4"
+        app:srcCompat="@drawable/bug" />
+
+    <ImageView
+        android:id="@+id/ivTypeTwo4"
+        android:layout_width="30dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvNamePokemon4"
+        app:srcCompat="@drawable/bug" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
