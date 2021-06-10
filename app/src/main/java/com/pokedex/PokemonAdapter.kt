@@ -41,6 +41,23 @@ class PokemonAdapter(val pokemonList:List<PokemonContainerItem>):RecyclerView.Ad
             ColorContainerPokemon().getColorContainerPokemon(pokemon.itemTwo.typeOne,2, view)
             ColorContainerPokemon().getColorContainerPokemon(pokemon.itemThree.typeOne,3, view)
             ColorContainerPokemon().getColorContainerPokemon(pokemon.itemFour.typeOne,4, view)
+            //FIRTS HABILITY
+            ColorContainerPokemon().getSkillOnePokemon(pokemon.itemOne.typeOne,1, view)
+            ColorContainerPokemon().getSkillOnePokemon(pokemon.itemTwo.typeOne,2, view)
+            ColorContainerPokemon().getSkillOnePokemon(pokemon.itemThree.typeOne,3, view)
+            ColorContainerPokemon().getSkillOnePokemon(pokemon.itemFour.typeOne,4, view)
+
+            //SECOND HABILITY
+            ColorContainerPokemon().getSkillTwoPokemon(pokemon.itemOne.typeTwo,1, view)
+            ColorContainerPokemon().getSkillTwoPokemon(pokemon.itemTwo.typeTwo,2, view)
+            ColorContainerPokemon().getSkillTwoPokemon(pokemon.itemThree.typeTwo,3, view)
+            ColorContainerPokemon().getSkillTwoPokemon(pokemon.itemFour.typeTwo,4, view)
+
+
+            InvisibleSkills(pokemon.itemOne.typeTwo,1)
+            InvisibleSkills(pokemon.itemTwo.typeTwo,2)
+            InvisibleSkills(pokemon.itemThree.typeTwo,3)
+            InvisibleSkills(pokemon.itemFour.typeTwo,4)
 
             view.tvNamePokemon.text = pokemon.itemOne.pokemon
             view.tvNumberPokemon.text = pokemon.itemOne.numberPokemon
@@ -78,8 +95,8 @@ class PokemonAdapter(val pokemonList:List<PokemonContainerItem>):RecyclerView.Ad
             }else{
                 view.ivCardOne.visibility = View.VISIBLE
                 view.ivPokemon.visibility= View.VISIBLE
-                view.ivTypeOne1.visibility= View.VISIBLE
-                view.ivTypeTwo1.visibility= View.VISIBLE
+//                view.ivTypeOne1.visibility= View.VISIBLE
+//                view.ivTypeTwo1.visibility= View.VISIBLE
             }
 
             if (pokemon.itemTwo.pokemon==""){
@@ -90,8 +107,8 @@ class PokemonAdapter(val pokemonList:List<PokemonContainerItem>):RecyclerView.Ad
             }else{
                 view.ivCardTwo.visibility = View.VISIBLE
                 view.ivPokemon2.visibility= View.VISIBLE
-                view.ivTypeOne2.visibility= View.VISIBLE
-                view.ivTypeTwo2.visibility= View.VISIBLE
+//                view.ivTypeOne2.visibility= View.VISIBLE
+//                view.ivTypeTwo2.visibility= View.VISIBLE
             }
 
             if (pokemon.itemThree.pokemon==""){
@@ -102,8 +119,8 @@ class PokemonAdapter(val pokemonList:List<PokemonContainerItem>):RecyclerView.Ad
             }else{
                 view.ivCardThree.visibility = View.VISIBLE
                 view.ivPokemon3.visibility  = View.VISIBLE
-                view.ivTypeOne3.visibility  = View.VISIBLE
-                view.ivTypeTwo3.visibility  = View.VISIBLE
+//                view.ivTypeOne3.visibility  = View.VISIBLE
+//                view.ivTypeTwo3.visibility  = View.VISIBLE
             }
 
             if (pokemon.itemFour.pokemon==""){
@@ -114,10 +131,61 @@ class PokemonAdapter(val pokemonList:List<PokemonContainerItem>):RecyclerView.Ad
             }else{
                 view.ivCardFourd.visibility = View.VISIBLE
                 view.ivPokemon4.visibility= View.VISIBLE
-                view.ivTypeOne4.visibility= View.VISIBLE
-                view.ivTypeTwo4.visibility= View.VISIBLE
+//                view.ivTypeOne4.visibility= View.VISIBLE
+//                view.ivTypeTwo4.visibility= View.VISIBLE
+            }
+
+//            if (pokemon.itemFour.typeTwo== ""){
+//                when(4){
+//                    1->{
+//                        view.ivTypeTwo1.visibility = View.INVISIBLE
+//                    }
+//                    2->{
+//                        view.ivTypeTwo2.visibility = View.INVISIBLE
+//                    }
+//                    3->{
+//                        view.ivTypeTwo3.visibility = View.INVISIBLE
+//                    }
+//                    4->{
+//                        view.ivTypeTwo4.visibility = View.INVISIBLE
+//                    }
+//                }
+//            }
+
+        }
+        fun InvisibleSkills(typePokemonTwo: String, numberPosition:Int){
+            if (typePokemonTwo== ""){
+                when(numberPosition){
+                    1->{
+                        view.ivTypeTwo1.visibility = View.INVISIBLE
+                    }
+                    2->{
+                        view.ivTypeTwo2.visibility = View.INVISIBLE
+                    }
+                    3->{
+                        view.ivTypeTwo3.visibility = View.INVISIBLE
+                    }
+                    4->{
+                        view.ivTypeTwo4.visibility = View.INVISIBLE
+                    }
+                }
+            }else{
+                when(numberPosition){
+                    1->{
+                        view.ivTypeTwo1.visibility = View.VISIBLE
+                    }
+                    2->{
+                        view.ivTypeTwo2.visibility = View.VISIBLE
+                    }
+                    3->{
+                        view.ivTypeTwo3.visibility = View.VISIBLE
+                    }
+                    4->{
+                        view.ivTypeTwo4.visibility = View.VISIBLE
+                    }
             }
 
         }
     }
+}
 }

@@ -29,10 +29,10 @@ class MainActivity : AppCompatActivity() {
             Pokemon("Weedle", "https://assets.pokemon.com/assets/cms2/img/pokedex/full/013.png", "013", "Bug", "Poison"),
             Pokemon("Kakuna", "https://assets.pokemon.com/assets/cms2/img/pokedex/full/014.png", "014", "Bug", "Poison"),
             Pokemon("Beedrill", "https://assets.pokemon.com/assets/cms2/img/pokedex/full/015.png", "015", "Bug", "Poison"),
-            Pokemon("Pidgey", "https://assets.pokemon.com/assets/cms2/img/pokedex/full/016.png", "016", "Normal", "Flying"),
+            Pokemon("Pidgey", "https://assets.pokemon.com/assets/cms2/img/pokedex/full/016.png", "016", "Flying", "Flying"),
 
-            Pokemon("Pidgeotto", "https://assets.pokemon.com/assets/cms2/img/pokedex/full/017.png", "017", "Normal", "Flying"),
-            Pokemon("Pidgeot", "https://assets.pokemon.com/assets/cms2/img/pokedex/full/018.png", "018", "Normal", "Flying"),
+            Pokemon("Pidgeotto", "https://assets.pokemon.com/assets/cms2/img/pokedex/full/017.png", "017", "Flying", "Flying"),
+            Pokemon("Pidgeot", "https://assets.pokemon.com/assets/cms2/img/pokedex/full/018.png", "018", "Flying", "Flying"),
             Pokemon("Rattata", "https://assets.pokemon.com/assets/cms2/img/pokedex/full/019.png", "019", "Normal", ""),
             Pokemon("Raticate", "https://assets.pokemon.com/assets/cms2/img/pokedex/full/020.png", "020", "Normal", ""),
 
@@ -58,8 +58,8 @@ class MainActivity : AppCompatActivity() {
 
             Pokemon("Vulpix", "https://assets.pokemon.com/assets/cms2/img/pokedex/full/037.png", "037", "Fire", ""),
             Pokemon("Ninetales", "https://assets.pokemon.com/assets/cms2/img/pokedex/full/038.png", "038", "Fire", ""),
-            Pokemon("Jigglypuff", "https://assets.pokemon.com/assets/cms2/img/pokedex/full/039.png", "039", "Normal", "Fairy"),
-            Pokemon("Wigglytuff", "https://assets.pokemon.com/assets/cms2/img/pokedex/full/040.png", "040", "Normal", "Fairy"),
+            Pokemon("Jigglypuff", "https://assets.pokemon.com/assets/cms2/img/pokedex/full/039.png", "039", "Fairy", ""),
+            Pokemon("Wigglytuff", "https://assets.pokemon.com/assets/cms2/img/pokedex/full/040.png", "040", "Fairy", ""),
 
             Pokemon("Zubat", "https://assets.pokemon.com/assets/cms2/img/pokedex/full/041.png", "041", "Poison", "Flying"),
             Pokemon("Golbat", "https://assets.pokemon.com/assets/cms2/img/pokedex/full/042.png", "042", "Poison", "Flying"),
